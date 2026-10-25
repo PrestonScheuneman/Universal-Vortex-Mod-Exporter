@@ -314,7 +314,7 @@ function Get-UVMEGameOverview {
                 $modName = Get-UVMEString $rawCustom
             }
             elseif ($rawLogical) {
-                # 1) Prefer the same field Vortex shows in the Mods list
+                # 1) Prefer the same field Vortex shows in the Mods list (2)
                 $modName = Get-UVMEString $rawLogical
             }
             elseif ($rawModName) {
